@@ -1,0 +1,31 @@
+# Node / TypeScript
+node_modules/
+*.tsbuildinfo
+*.js.map
+
+# OpenCode / plugin local state
+.opencode/
+*.log
+opencode.log
+
+# DeepSeek credentials & imported cURL (NEVER commit these)
+token.json
+token.txt
+cookie.txt
+curl.txt
+*.curl
+deepseek-web/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Test artifacts
+test/.tmp/
+
+# Bun cache
+.bun/

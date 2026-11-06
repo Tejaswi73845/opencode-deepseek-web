@@ -1,0 +1,11 @@
+{
+  "name": "opencode-deepseek-web",
+  "version": "0.1.0",
+  "description": "Use your DeepSeek web-chat browser session (cookie/token) as an OpenCode provider",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": ["src", "scripts", "README.md"],
+  "license": "MIT"
+}
